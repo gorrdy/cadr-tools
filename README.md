@@ -37,21 +37,21 @@ See currently installed apps
 
 See status, start, stop or restart each app indivially (use the name from the list_apps.sh)
 
-`sudo  ./status.sh <bitcoin-mainnet>`
+`sudo  ./status.sh bitcoin-mainnet`
 
-`sudo  ./start.sh <bitcoin-mainnet>`
+`sudo  ./start.sh bitcoin-mainnet`
 
-`sudo  ./stop.sh <bitcoin-mainnet>`
+`sudo  ./stop.sh bitcoin-mainnet`
 
-`sudo  ./restart.sh <bitcoin-mainnet>`
+`sudo  ./restart.sh bitcoin-mainnet`
 
 Check logs for each app separately (use the name from the list_apps.sh)
 
-`sudo  ./logs.sh <bitcoin-mainnet>`
+`sudo  ./logs.sh bitcoin-mainnet`
 
 Reconfigure the app settings if needed for some reason
 
-`sudo  ./reconfigure.sh <bitcoin-mainnet>`
+`sudo  ./reconfigure.sh bitcoin-mainnet`
 
 
 
