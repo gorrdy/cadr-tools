@@ -13,7 +13,7 @@ How it works:
 
 Set the repositories for microsoft and deb.ln-ask.me
 
-`sudo ./set_repositories`
+`sudo ./set_repositories.sh`
 
 Install the apps
 
