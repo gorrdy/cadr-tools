@@ -8,4 +8,4 @@ if [[ $UID != 0 ]]; then
 fi
 
 apt update
-apt dist-upgrade
+apt dist-upgrade -y
