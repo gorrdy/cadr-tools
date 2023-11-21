@@ -7,4 +7,4 @@ if [[ $UID != 0 ]]; then
     exit 1
 fi
 
-apt install -y btcpayserver btc-rpc-explorer electrs  btc-transmuter ridetheln thunderhub selfhost-dashboard
+apt install -y btcpayserver btc-rpc-explorer electrs btc-transmuter ridetheln thunderhub selfhost-dashboard bitcoin-cli lncli
