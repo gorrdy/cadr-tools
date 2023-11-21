@@ -1,4 +1,4 @@
-# cadr-tools
+# CADR Tools
 Tools and tricks for the cryptoanarchy deb repo builder
 
 DO NOT USE IN PRODUCTION!
@@ -9,7 +9,7 @@ It is required to run the scripts as super user which is probably not needed in 
 
 Use it only for testing purposes, research and looking around.
 
-How it works:
+# How it works:
 
 Set the repositories for microsoft and deb.ln-ask.me
 
