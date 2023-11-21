@@ -1,5 +1,4 @@
 #!/bin/bash
-
 SCRIPT=`basename "$0"`
 
 if [[ $UID != 0 ]]; then
