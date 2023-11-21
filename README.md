@@ -12,34 +12,34 @@ Use it only for testing purposes, research and looking around.
 How it works:
 
 Set the repositories for microsoft and deb.ln-ask.me
-`sudo  ./set_repositories`
+```sudo  ./set_repositories```
 
 Install the apps
-`sudo  ./install_apps.sh`
+```sudo  ./install_apps.sh```
 
 Check what domain it uses (default is tor), visit the http://xxxxxxxxxxx.onion/dashboard
-`sudo  ./get_domain.sh`
+```sudo  ./get_domain.sh```
 
 Setup as clearnet if you want. Prepare the open ports 80 and 443, DNS etc. before running this command
-`sudo  ./clearnet.sh`
+```sudo  ./clearnet.sh```
 
 Upgrade packages with a single command if there are new releases
-`sudo  ./upgrade.sh`
+```sudo  ./upgrade.sh```
 
 See currently installed apps
-`sudo  ./list_apps.sh`
+```sudo  ./list_apps.sh```
 
 See status, start, stop or restart each app indivially (use the name from the list_apps.sh)
-`sudo  ./status.sh <bitcoin-mainnet>`
-`sudo  ./start.sh <bitcoin-mainnet>`
-`sudo  ./stop.sh <bitcoin-mainnet>`
-`sudo  ./restart.sh <bitcoin-mainnet>`
+```sudo  ./status.sh <bitcoin-mainnet>```
+```sudo  ./start.sh <bitcoin-mainnet>```
+```sudo  ./stop.sh <bitcoin-mainnet>```
+```sudo  ./restart.sh <bitcoin-mainnet>```
 
 Check logs for each app separately (use the name from the list_apps.sh)
-`sudo  ./logs.sh <bitcoin-mainnet>`
+```sudo  ./logs.sh <bitcoin-mainnet>```
 
 Reconfigure the app settings if needed for some reason
-`sudo  ./reconfigure.sh <bitcoin-mainnet>`
+```sudo  ./reconfigure.sh <bitcoin-mainnet>```
 
 
 
