@@ -54,6 +54,7 @@ Reconfigure the app settings if needed for some reason
 `sudo ./reconfigure.sh bitcoin-mainnet`
 
 Upgrade from Debian 10 to Debian 11 including changing the sources list, upgrading the Postgres clusters
+
 `sudo ./upgrade_debian.sh`
 
 
