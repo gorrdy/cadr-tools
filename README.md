@@ -3,15 +3,15 @@ Tools and tricks for the cryptoanarchy deb repo builder
 
 DO NOT USE IN PRODUCTION!
 
-This is a set of tools (scripts) for making installation of the [CADR](https://github.com/debian-cryptoanarchy/cryptoanarchy-deb-repo-builder) easier and quicker when testing something. It lacks e.g. verifying signatures (for now) and some of the scripts are build in a relatively naive way so there may be scenarios it just simply doesn't work.
+This is a set of tools (scripts) for making installation of the [CADR](https://github.com/debian-cryptoanarchy/cryptoanarchy-deb-repo-builder) easier and quicker when testing something. It lacks e.g. verifying signatures (for now) and some of the scripts are built in a relatively naive way so there may be scenarios where it just simply doesn't work.
 
 It is required to run the scripts as super user which is probably not needed in all cases but it is the way it is for now.
 
-Use it only for testing purposes, research and looking around.
+Use it only for testing purposes, research, and looking around.
 
 # How it works:
 
-Set the repositories for microsoft and deb.ln-ask.me
+Set the repositories for Microsoft and deb.ln-ask.me
 
 `sudo ./set_repositories.sh`
 
@@ -35,7 +35,7 @@ See currently installed apps
 
 `sudo ./list_apps.sh`
 
-See status, start, stop, or restart each app indivially (use the name from the list_apps.sh)
+See status, start, stop, or restart each app individually (use the name from the list_apps.sh)
 
 `sudo ./status.sh bitcoin-mainnet`
 
@@ -52,6 +52,9 @@ Check logs for each app separately (use the name from the list_apps.sh)
 Reconfigure the app settings if needed for some reason
 
 `sudo ./reconfigure.sh bitcoin-mainnet`
+
+Upgrade from Debian 10 to Debian 11 including changing the sources list, upgrading the Postgres clusters
+`sudo ./upgrade_debian.sh`
 
 
 
