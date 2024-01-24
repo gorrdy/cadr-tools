@@ -8,6 +8,14 @@ if [[ $UID != 0 ]]; then
     exit 1
 fi
 
+#check the version of Debian. If bullseye or higher, stop the upgrade script
+. /etc/os-release
+
+if [[ $VERSION_ID -ge 11 ]]; then
+    echo "The debian version is already up to date - $VERSION"
+    exit 0
+fi
+
 apt update
 apt dist-upgrade -y
 apt autoremove --purge
